@@ -1,0 +1,190 @@
+/* FONTS */
+
+@font-face {
+  font-family: "Museo-100";
+  src: url("//db.onlinewebfonts.com/t/2cae9b38b49995939e0d5112edcf85ed.eot");
+  src: url("//db.onlinewebfonts.com/t/2cae9b38b49995939e0d5112edcf85ed.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/2cae9b38b49995939e0d5112edcf85ed.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/2cae9b38b49995939e0d5112edcf85ed.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/2cae9b38b49995939e0d5112edcf85ed.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/2cae9b38b49995939e0d5112edcf85ed.svg#Museo-100")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Museo 300";
+  src: url("//db.onlinewebfonts.com/t/59272c06965f3b33f8db3b47796309ca.eot");
+  src: url("//db.onlinewebfonts.com/t/59272c06965f3b33f8db3b47796309ca.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/59272c06965f3b33f8db3b47796309ca.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/59272c06965f3b33f8db3b47796309ca.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/59272c06965f3b33f8db3b47796309ca.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/59272c06965f3b33f8db3b47796309ca.svg#Museo 300")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Museo 500";
+  src: url("//db.onlinewebfonts.com/t/44a0ed7766c350c45cf74f45d745cfeb.eot");
+  src: url("//db.onlinewebfonts.com/t/44a0ed7766c350c45cf74f45d745cfeb.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/44a0ed7766c350c45cf74f45d745cfeb.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/44a0ed7766c350c45cf74f45d745cfeb.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/44a0ed7766c350c45cf74f45d745cfeb.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/44a0ed7766c350c45cf74f45d745cfeb.svg#Museo 500")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Museo 700";
+  src: url("//db.onlinewebfonts.com/t/dc579f9739403ae5d95bb441a0b69082.eot");
+  src: url("//db.onlinewebfonts.com/t/dc579f9739403ae5d95bb441a0b69082.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/dc579f9739403ae5d95bb441a0b69082.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/dc579f9739403ae5d95bb441a0b69082.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/dc579f9739403ae5d95bb441a0b69082.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/dc579f9739403ae5d95bb441a0b69082.svg#Museo")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Museo 900";
+  src: url("//db.onlinewebfonts.com/t/baf825560a9d6489b1abb904d00799e2.eot");
+  src: url("//db.onlinewebfonts.com/t/baf825560a9d6489b1abb904d00799e2.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/baf825560a9d6489b1abb904d00799e2.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/baf825560a9d6489b1abb904d00799e2.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/baf825560a9d6489b1abb904d00799e2.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/baf825560a9d6489b1abb904d00799e2.svg#Museo")
+      format("svg");
+}
+
+body {
+  background-image: url(../img/madera-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo {
+  /* background: #ed1c2c; */
+  background-image: url(../img/premio-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: "Museo 900";
+  text-align: center;
+}
+
+.promo-desktop {
+  background-image: url(../img/premio-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #fff;
+  font-family: "Museo 900";
+}
+
+.nombrePlatillo {
+  font-family: "Museo 500";
+  font-size: 19px;
+}
+
+.validoQueretaroDesktop {
+  font-family: "Museo 500";
+  font-size: 18px;
+}
+
+/* .f11px {
+  font-size: 11px;
+} */
+
+.cap--small {
+  font-size: 20px;
+}
+
+.cap--regular {
+  font-size: 31px;
+}
+
+.precio__diez {
+  font-size: 132px;
+}
+
+.clasico {
+  font-size: 48px;
+}
+
+/* DESKTOP */
+
+.cap--small {
+  font-size: 20px;
+}
+
+.cap--regular--desktop {
+  font-size: 28px;
+}
+
+.precio__diez {
+  font-size: 132px;
+}
+
+.clasico--desktop {
+  font-size: 45px;
+}
+
+/* FIN DESKTOP */
+
+.precio__wrapper {
+  display: flex;
+}
+
+/* BTN */
+
+.btn-vips {
+  background-color: #f5a623;
+  color: #fff;
+  padding: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.vigencia {
+  color: #fff;
+  font-size: 12px;
+}
+
+.terms {
+  color: #fff;
+}
+
+.vigenciaDesktop {
+  background-color: #f5a623;
+  color: #fff;
+  padding: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.py-6rem {
+  padding: 6rem 0;
+}
+
+.pr-6rem {
+  padding-right: 6rem;
+}
